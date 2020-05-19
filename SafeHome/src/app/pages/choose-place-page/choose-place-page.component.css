@@ -1,0 +1,132 @@
+body{
+    background-image: url(~src/assets/images/image3.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    position: fixed; 
+    min-width: 100%;
+    min-height: 100%;
+    top: 0; 
+    left: 0; 
+
+    background-attachment: fixed;
+
+    height:100vh;
+
+      text-align: center;
+      min-height:100vh;
+align-items: center;
+
+      display: table;
+      margin: auto;
+      justify-content: center;
+  }
+
+
+  .placeTitle{
+    position: absolute;
+  }
+
+#PlaygroundPlaceTitle{
+  width:200px;
+  height: 32px;
+  margin-left: 0px;
+
+}
+
+#homePlaceTitle{
+  width:100px;
+height: 32px;
+top: -30px;
+}
+
+#schoolPlaceTitle{
+  width: 100px;
+  height: 80px;
+  left: -50px;
+  top: 40px;
+
+}
+
+  /* Playground */
+
+  #PlaygroundPlaceImage{
+    height: 300px;
+    width:200px;
+  }
+  
+     #PlaygroundPlace{
+      position: absolute;
+      margin-left:100px;
+      margin-top:600px;
+  /* 
+      height: 300px;
+      width:200px; */
+  
+      /* width: 78.77px;
+      height: 120px; */
+    }
+  
+    #PlaygroundPlaceImage:hover{
+      height: 312px;
+      width: 208px;
+    }
+
+/* home*/
+#homePlaceImage{
+  height: 300px;
+  width:200px;
+}
+
+   #homePlace{
+    position: absolute;
+    margin-left: 790px;
+    margin-top:470px;
+/* 
+    height: 300px;
+    width:200px; */
+
+    /* width: 78.77px;
+    height: 120px; */
+  }
+
+  #homePlaceImage:hover{
+    height: 312px;
+    width: 208px;
+  }
+
+
+    /* school*/
+  #schoolPlace{
+    position: absolute;
+    margin-top:300px;
+  margin-left:290px;
+
+  }
+
+  #schoolPlaceImage:hover{
+    height: 364px;
+    width: 260px;
+  }
+
+  #schoolPlaceImage{
+    height: 350px;
+    width: 250px;
+  }
+
+
+#taskTest{
+  position: absolute;
+  ;
+  align-self: center;
+  left:200px;
+  top:30px;
+}
+
+  *:focus {
+    outline: none;
+
+}
+
+

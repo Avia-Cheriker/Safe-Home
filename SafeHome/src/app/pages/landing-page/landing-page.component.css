@@ -1,0 +1,124 @@
+.image{
+    /* background-size:cover; 
+
+    position: absolte; 
+    top: 0; 
+    left: 0; 
+      
+    background-position: center;
+
+    min-width: 100%;
+    min-height: 100%;
+
+    background-repeat: no-repeat; */
+
+
+  }
+
+  body{
+    background-image: url(~src/assets/images/image1.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    position: fixed; 
+    min-width: 100%;
+    min-height: 100%;
+    top: 0; 
+    left: 0; 
+
+    background-attachment: fixed;
+
+    height:100vh;
+
+      text-align: center;
+      min-height:100vh;
+
+
+      display: table;
+      align-items: center;
+      margin: auto;
+  }
+
+.title{
+    margin-top:100px;
+
+    text-align: center;
+}
+
+  #btnNext{
+    
+    background: rgba(148, 145, 145, 0.5);
+    margin-top: 70px;
+
+
+    /* border */
+    border-radius: 25px;
+    border-color: black;
+    border-width: 30px;
+    border-radius: 30px;
+    border: 2px solid black;
+
+    /* text */
+    padding: 10px 40px 10px 40px; 
+    color:black;
+    font-size: 25px;
+    font-family: Arial Rounded MT Bold;
+
+    display: table-cell;
+    text-align: center;
+    vertical-align: bottom;
+    margin-bottom: 0;
+
+
+
+  }
+
+.middel{
+    height: 300px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    align-items: center;
+    font-family: Arial Rounded MT Bold;
+    margin: auto;
+    padding: auto;
+    display: block;
+    vertical-align: middle;
+    margin-top:40px;
+    position: relative;
+    justify-content: center;
+    font-size:50px;
+
+
+}
+
+input{
+    background-color: transparent;
+    border-width: 0;
+    border-color: black;
+    border-bottom-width: 2px;
+    font-family: Arial Rounded MT Bold;
+    font-size:30px;
+    text-align: center;
+
+
+    border-bottom-width:3px;
+    /* border:none;
+    box-shadow: none; */
+
+    
+
+}
+.container{
+    margin-top: 150px;
+}
+
+.fff{
+    margin-top: 70px;
+
+    padding-top :100px;
+}
+
+*:focus {
+    outline: none;
+}

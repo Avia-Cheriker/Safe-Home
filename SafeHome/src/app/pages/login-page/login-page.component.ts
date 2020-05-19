@@ -10,34 +10,34 @@ import { LoginService } from  '../../services/login.service';
 })
 
 export class LoginPageComponent implements OnInit {
-  loginForm: FormGroup;
-  isSubmitted = false;
+  // loginForm: FormGroup;
+  // isSubmitted = false;
   // loading = false;
-  returnUrl: string;
+  // returnUrl: string;
 
-  constructor(
-    private loginService : LoginService,
-    private router: Router,
-    private formBuilder: FormBuilder
-  ) { }
+  // constructor(
+  //   private loginService : LoginService,
+  //   private router: Router,
+  //   private formBuilder: FormBuilder
+  // ) { }
 
-  ngOnInit(): void {
-    this.loginForm = this.formBuilder.group({
-      email: ['', Validators.required],
-      password: ['', Validators.required]
-    });
-  }
-  // convenience getter for easy access to form fields
-  get formControls() { return this.loginForm.controls; }
+  // ngOnInit(): void {
+  //   this.loginForm = this.formBuilder.group({
+  //     email: ['', Validators.required],
+  //     password: ['', Validators.required]
+  //   });
+  // }
+  // // convenience getter for easy access to form fields
+  // get formControls() { return this.loginForm.controls; }
 
-  onSubmit() {
-    this.isSubmitted = true;
-    // stop here if form is invalid
-    if (this.loginForm.invalid) {
-      return;
-    }
-    // this.loading = true;
-    this.loginService.signIn(this.loginForm.value);
-    this.router.navigateByUrl('/game'); // todo: check routing
-  }
+  // onSubmit() {
+  //   this.isSubmitted = true;
+  //   // stop here if form is invalid
+  //   if (this.loginForm.invalid) {
+  //     return;
+  //   }
+  //   // this.loading = true;
+  //   this.loginService.signIn(this.loginForm.value);
+  //   this.router.navigateByUrl('/game'); // todo: check routing
+  // }
 }
