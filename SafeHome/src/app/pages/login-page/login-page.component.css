@@ -13,8 +13,11 @@ body{
     display: table;
     margin: auto;
     justify-content: center;
+    padding-top:150px;
   }
-
+.orContainer{
+    align-items: center;
+}
 
 #titlePosition{
     position: relative;
@@ -71,7 +74,6 @@ body{
     line-height: 13px;
     text-align: center;
     color: #000000;
-    left: -60px;
 }
 
 #loginBtn{
