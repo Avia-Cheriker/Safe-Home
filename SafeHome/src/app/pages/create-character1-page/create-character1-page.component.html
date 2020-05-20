@@ -1,0 +1,12 @@
+<body>
+
+    <!-- <img class = "sister" src ="imageIsClicked?'../../assets/images/sister3.png':'../../assets/images/sister2.png'"> -->
+        <img class = "sister" src ='../../assets/images/sister3.png'>
+
+    <a (click)="onClickj()"><img id="hands" (ng-click)="onClickj()" src ="../../assets/images/hands.png"></a>
+    <div *ngIf="imageIsClicked">
+    <img  class= "sister"  src ="../../assets/images/sister2.png">
+</div>
+    
+<button routerLink="/myFamily" id = "btnNext" routerLinkActive="active">next</button>
+</body>

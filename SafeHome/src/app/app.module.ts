@@ -91,6 +91,11 @@ import { LandingPageComponent } from './pages/landing-page/landing-page.componen
 import { ChoosePlacePageComponent } from './pages/choose-place-page/choose-place-page.component';
 import { BuildCharacterPageComponent } from './pages/build-character-page/build-character-page.component';
 import { HomeChoicePageComponent } from './pages/home-choice-page/home-choice-page.component';
+import { CreateFamilyPageComponent } from './pages/create-family-page/create-family-page.component';
+import { CreateCharacter1PageComponent } from './pages/create-character1-page/create-character1-page.component';
+import { CreateCharacter2PageComponent } from './pages/create-character2-page/create-character2-page.component';
+import { MyFamilyPageComponent } from './pages/my-family-page/my-family-page.component';
+import { MyFamilyPage2Component } from './pages/my-family-page2/my-family-page2.component';
 
 @NgModule({
   declarations: [
@@ -103,7 +108,12 @@ import { HomeChoicePageComponent } from './pages/home-choice-page/home-choice-pa
     LandingPageComponent,
     ChoosePlacePageComponent,
     BuildCharacterPageComponent,
-    HomeChoicePageComponent
+    HomeChoicePageComponent,
+    CreateFamilyPageComponent,
+    CreateCharacter1PageComponent,
+    CreateCharacter2PageComponent,
+    MyFamilyPageComponent,
+    MyFamilyPage2Component
   ],
   imports: [
     BrowserModule,

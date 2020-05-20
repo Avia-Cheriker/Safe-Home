@@ -9,7 +9,7 @@ import { LoginService } from  '../../services/login.service';
   styleUrls: ['./login-page.component.css']
 })
 
-export class LoginPageComponent implements OnInit {
+export class LoginPageComponent {
   // loginForm: FormGroup;
   // isSubmitted = false;
   // loading = false;
