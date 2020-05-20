@@ -1,0 +1,75 @@
+body{
+    background-image: url(~src/assets/images/createImage.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    position: fixed; 
+    min-width: 100%;
+    min-height: 100%;
+    top: 0; 
+    left: 0; 
+
+    background-attachment: fixed;
+
+    height:100vh;
+
+      text-align: center;
+      min-height:100vh;
+
+
+      display: table;
+      align-items: center;
+      margin: auto;
+  }
+
+  .father{
+position: absolute;
+width: 320px;
+height: 570px;
+top: 240px;
+right: 100px
+  }
+
+#hands{
+    position: absolute;
+    left: 380px;
+    top:410px;
+    width:100px;
+    height: 100px;
+    
+
+}
+  #btnNext{
+    
+    background: rgba(148, 145, 145, 0.5);
+    margin-top: 70px;
+
+
+    /* border */
+    border-radius: 25px;
+    border-color: black;
+    border-width: 30px;
+    border-radius: 30px;
+    border: 2px solid black;
+
+    /* text */
+    padding: 10px 40px 10px 40px; 
+    color:black;
+    font-size: 25px;
+    font-family: Arial Rounded MT Bold;
+
+    display: table-cell;
+    text-align: center;
+    vertical-align: bottom;
+    margin-bottom: 0;
+    bottom: 0;
+    margin-top:850px;
+
+
+  }
+
+
+  *:focus {
+    outline: none;
+}

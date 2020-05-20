@@ -32,6 +32,7 @@ align-items: center;
   width:200px;
   height: 32px;
   margin-left: 0px;
+  top: -40px;
 
 }
 
@@ -52,8 +53,8 @@ top: -30px;
   /* Playground */
 
   #PlaygroundPlaceImage{
-    height: 300px;
-    width:200px;
+    height: 270px;
+    width:360px;
   }
   
      #PlaygroundPlace{
@@ -69,8 +70,8 @@ top: -30px;
     }
   
     #PlaygroundPlaceImage:hover{
-      height: 312px;
-      width: 208px;
+      height: 290px;
+    width:390px;
     }
 
 /* home*/

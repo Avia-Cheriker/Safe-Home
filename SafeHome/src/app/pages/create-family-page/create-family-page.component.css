@@ -1,5 +1,5 @@
 body{
-    background-image: url(~src/assets/images/scenario.png) ;
+    background-image: url(~src/assets/images/createFamily.png) ;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -16,9 +16,29 @@ body{
 
       text-align: center;
       min-height:100vh;
-align-items: center;
+
 
       display: table;
+      align-items: center;
       margin: auto;
-      justify-content: center;
   }
+
+  #sister{
+position: absolute;
+width: 90px;
+height: 250px;
+top: 400px;
+left: 235px
+  }
+
+  #father{
+    position: absolute;
+    width: 180px;
+    height: 360px;
+    top: 300px;
+    left: 446px
+  }
+
+  *:focus {
+    outline: none;
+}
