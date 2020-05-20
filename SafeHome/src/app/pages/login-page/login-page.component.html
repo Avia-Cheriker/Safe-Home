@@ -1,27 +1,34 @@
-<div class="col-md-6 offset-md-3 mt-5">
-    <div class="card">
-        <h4 class="card-header">Login</h4>
-        <div class="card-body">
-            <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" formControlName="email" class="form-control" [ngClass]="{ 'is-invalid': isSubmitted && formControls.email.errors }" />
-                    <div *ngIf="isSubmitted && formControls.email.errors" class="invalid-feedback">
-                        <div *ngIf="formControls.email.errors.required">Email is required</div>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="password">Password</label>
-                    <input type="password" formControlName="password" class="form-control" [ngClass]="{ 'is-invalid': isSubmitted && formControls.password.errors }" />
-                    <div *ngIf="isSubmitted && formControls.password.errors" class="invalid-feedback">
-                        <div *ngIf="formControls.password.errors.required">Password is required</div>
-                    </div>
-                </div>
+<body>
 
-                <p>
-                    <input  routerLink="/landing" type="submit" value="Log in">
-                </p>
-            </form>
-        </div>
+    <div class="box">
+         <img id="titlePosition" src ="../../assets/images/FantasyLand.png" >
     </div>
-</div>
+   
+  
+    <div id="alreadySignedUp">
+        allready signed up?
+    </div>
+
+    <div id="email">
+        <input type="email" placeholder ="EMAIL" class="inputBox"/>
+    </div>
+    <div id="password">
+        <input type="password" placeholder ="PASSWORD" class="inputBox"/>
+    </div>
+    <div id="forgotPassword">
+        <a href="url">FORGOT PASSWORD?</a>
+    </div>
+    <div id="loginBtn">
+        <input type="submit" value="Log In" class="inputBtn">
+    </div>
+
+    <div id="lineLeft"></div>
+    <div id="orTitle"> OR </div>
+    <div id="lineRight"></div>
+
+    <div id=signUp>
+        <a href="url">don't have an account yet? SIGN UP</a>
+        
+    </div>
+
+  </body>

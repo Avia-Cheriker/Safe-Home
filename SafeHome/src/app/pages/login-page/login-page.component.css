@@ -1,0 +1,144 @@
+body{
+    background: #E5E4E4;  
+
+    position: fixed; 
+    min-width: 100%;
+    min-height: 100%;
+    top: 0; 
+    left: 0; 
+    height:100vh;
+    text-align: center;
+    min-height:100vh;
+    align-items: center;
+    display: table;
+    margin: auto;
+    justify-content: center;
+  }
+
+
+#titlePosition{
+    position: relative;
+    align-self: center;
+    top:50px;
+  }
+
+  #alreadySignedUp{
+    position: relative;
+    align-self: center;
+    top:80px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+  }
+
+#email{
+    position: relative;
+    align-self: center;
+    top:110px;
+} 
+
+#password{
+    position: relative;
+    align-self: center;
+    top:120px;
+} 
+
+::placeholder {
+    text-align: center;
+}
+
+.inputBox{
+    border-top: none; 
+    border-bottom:1px solid black;
+    border-left: none;
+    border-right: none;
+    background-color: #E5E4E4;
+    width: 15%;
+}
+
+#forgotPassword{
+    position: relative;
+    align-self: center;
+    top: 140px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 13px;
+    text-align: center;
+    color: #000000;
+    left: -60px;
+}
+
+#loginBtn{
+position: relative;
+top: 180px;
+font-family: Baloo Chettan;
+font-size: 24px;
+}
+
+.inputBtn{
+    border-radius: 10px;
+    border-color: black;
+    border-width: 5px;
+    color: black;
+    background-color: rgb(196, 196, 196, 0.6);
+}
+
+
+#lineLeft{
+    position: relative;
+    align-self: center;
+    width: 100px;
+    height: 0px;
+    top:220px;
+    border: 1px solid #000000;
+    left: 830px
+}
+
+#orTitle{
+    position: relative;
+    align-self: center;
+    width: 100px;
+    height: 0px;
+    top:205px;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: -50px;
+    text-align: center;
+    color: #FFFFFF;
+    left: 910px
+}
+
+#lineRight{
+    position: relative;
+    align-self: center;
+    width: 100px;
+    height: 0px;
+    top:220px;
+    border: 1px solid #000000;
+    left: 980px
+}
+
+/* don't have an account yet? SIGN UP */
+#signUp{
+    position: relative;
+    align-self: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+    top:250px;
+}
+
+

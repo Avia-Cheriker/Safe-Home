@@ -10,6 +10,8 @@ import { LoginService } from  '../../services/login.service';
 })
 
 export class LoginPageComponent implements OnInit {
+  ngOnInit(): void {
+  }
   // loginForm: FormGroup;
   // isSubmitted = false;
   // loading = false;
