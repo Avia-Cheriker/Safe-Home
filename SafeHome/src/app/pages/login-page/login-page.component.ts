@@ -9,7 +9,9 @@ import { LoginService } from  '../../services/login.service';
   styleUrls: ['./login-page.component.css']
 })
 
-export class LoginPageComponent {
+export class LoginPageComponent implements OnInit {
+  ngOnInit(): void {
+  }
   // loginForm: FormGroup;
   // isSubmitted = false;
   // loading = false;
